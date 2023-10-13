@@ -1,0 +1,10 @@
+all: mv
+
+EXTRA_CFLAGS = -DHAVE_LINUX_PERF_EVENT_H -g -O3
+
+mv: mv.c 
+	$(CC) $(EXTRA_CFLAGS)  mv.c -o mv
+
+clean:
+		rm -f mv
+		
