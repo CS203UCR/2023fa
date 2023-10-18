@@ -17,11 +17,10 @@ struct student
 struct student
 {
   int id;
-
+  int participation;
   double *homework;
   double midterm;
   double average;
-      int participation;
 };
 #endif
 //END_2
