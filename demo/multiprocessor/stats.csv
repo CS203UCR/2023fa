@@ -1,0 +1,2 @@
+size,threads,IC,Cycles,CPI,CT,ET,L1_dcache_miss_rate,L1_dcache_misses,L1_dcache_accesses,branches,branch_misses
+16777216,4,16777216,4,
